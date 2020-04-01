@@ -48,14 +48,5 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.2.4",
     "jest-sonar-reporter": "^2.0.0"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}"
-    ],
-    "testResultsProcessor": "jest-sonar-reporter",
-    "moduleNameMapper": {
-      "\\.(css|scss)$": "identity-obj-proxy"
-    }
   }
 }
