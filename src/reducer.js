@@ -24,8 +24,13 @@ const generateQuestions = () => {
 }
 
 
-const doOtherThing = () => {
-    return 5;
+const doOtherThing = (x) => {
+    if (x>0) {
+        return x;
+    } else {
+        return 0;
+    }
+
 }
 
 const generateQuestionOrder = () => {
@@ -40,7 +45,7 @@ const generateQuestionOrder = () => {
         questionOrder.push(nextQuestion);
     }
 
-    doOtherThing()
+    doOtherThing(5)
 
     return questionOrder;
 }
