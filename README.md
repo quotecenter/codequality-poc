@@ -1,5 +1,6 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/dashboard?id=quotecenter_codequality-poc)
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=quotecenter_codequality-poc)](https://sonarcloud.io/dashboard?id=quotecenter_codequality-poc)
+
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=quotecenter_codequality-poc&metric=bugs)](https://sonarcloud.io/dashboard?id=quotecenter_codequality-poc)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=quotecenter_codequality-poc&metric=code_smells)](https://sonarcloud.io/dashboard?id=quotecenter_codequality-poc)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quotecenter_codequality-poc&metric=coverage)](https://sonarcloud.io/dashboard?id=quotecenter_codequality-poc)
