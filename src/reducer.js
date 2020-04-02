@@ -23,6 +23,11 @@ const generateQuestions = () => {
     return freshQuestionSet;
 }
 
+
+const doOtherThing = () => {
+    return 5;
+}
+
 const generateQuestionOrder = () => {
     const allQuestions = [];
     const questionOrder = [];
@@ -34,6 +39,9 @@ const generateQuestionOrder = () => {
         _.pull(allQuestions, nextQuestion);
         questionOrder.push(nextQuestion);
     }
+
+    doOtherThing()
+
     return questionOrder;
 }
 
