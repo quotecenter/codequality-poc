@@ -19,7 +19,9 @@ export const getNextQuestion = (state => {
 
 export const getGameState = (state => {
     if (state.onScreen === WELCOME) {
-        return WELCOME;
+        // eslint-disable-next-line no-useless-concat
+        const welcome = 'WELC' + 'OME';
+        return welcome;
     }
     if (getSeansMood(state) >= WINNING_SCORE) {
         return WINNER;
