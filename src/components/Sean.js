@@ -22,7 +22,7 @@ const SeanImagesByMood = {
     4: { src: King, altText: "A cartoon Sean with a crown on his head" },
 }
 
-const Component = ({ mood=1, other }) => (
+const Component = ({ mood }) => (
     <img src={SeanImagesByMood[mood].src} alt={SeanImagesByMood[mood].altText} />
 );
 
